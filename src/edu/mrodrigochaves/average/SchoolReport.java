@@ -1,4 +1,5 @@
-package average;
+package edu.mrodrigochaves.average;
+
 public class SchoolReport {
 
     public static void main(String[] args) {
