@@ -1,1 +1,1 @@
-# java-basico
+# This is a repo for study basic-java
