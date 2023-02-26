@@ -1,3 +1,4 @@
+package average;
 public class SchoolReport {
 
     public static void main(String[] args) {
