@@ -3,23 +3,26 @@ package edu.mrodrigochaves.scope;
 public class Conta {
     
 //variavel da classe conta
-double saldo=10.0;
+//double saldo=10.0;
 	
-public static void sacar(String[] args) {
+public static void main(String[] args) {
+
+    calcularDividaExponencial();
     //variavel local de método
    // double novoSaldo = saldo - valor;
-}
-public void imprimirSaldo(){
+
+//public void imprimirSaldo(){
     //disponível em toda classe
-    System.out.println(saldo);
+  //  System.out.println(saldo);
     //somente o método sacar conhece esta variavel
     //System.out.println(novoSaldo);
 
 }
-public double calcularDividaExponencial(){
+
+private static double calcularDividaExponencial(){
     //variável local de método
     double valorParcela = 50.0;
-    double valorMontante = 0.0; // começando a variável com valor zero
+    double valorMontante = 10.0; // começando a variável com valor zero
     for(int x=1; x<=5; x++) {//x variável de escopo de fluxo
         //esta variável será reiniciada a cada execução for
         double valorCalculado = valorParcela * x;
