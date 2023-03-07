@@ -7,7 +7,7 @@ public class Mounth {
         mesesDoAno();
         minhasFerias();
     }
-
+//uso do if
     private static void mesesDoAno() {
         int mes = 0;
         if (mes == 1) {
@@ -38,7 +38,7 @@ public class Mounth {
             System.out.println(
                     "Não existe mês correspondente para este número.");
     }
-
+//uso do switch
     private static void minhasFerias() {
 
         String mes = "dezembro";
