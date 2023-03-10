@@ -1,27 +1,27 @@
 package edu.mrodrigochaves.lasagna;
 
 public class Lasagna {
-    
 
-    public void expectedMinutesInOven() {
-    Lasagna lasagna = new Lasagna();
-    lasagna.expectedMinutesInOven();
-    // => 40
+    // TODO: define the 'expectedMinutesInOven()' method
+    private final int expectedTime = 40;
+
+    public int expectedMinutesInOven() {
+        return expectedTime;
+
     }
-    
-    
-    public void remainingMinutesInOven() {
-        Lasagna lasagna = new Lasagna();
-        lasagna.remainingMinutesInOven();
+
+    // TODO: define the 'remainingMinutesInOven()' method
+    public int remainingMinutesInOven(int timeMinInOven) {
+        return expectedMinutesInOven() - timeMinInOven;
     }
-    
-    public void preparationTimeInMinutes() {
-        Lasagna lasagna = new Lasagna();
-        lasagna.preparationTimeInMinutes();
+
+    // TODO: define the 'preparationTimeInMinutes()' method
+    public int preparationTimeInMinutes(int numLayers) {
+        return numLayers * 2;
     }
-    
-    public void totalTimeInMinutes() {
-        Lasagna lasagna = new Lasagna();
-        lasagna.totalTimeInMinutes();
+
+    // TODO: define the 'totalTimeInMinutes()' method
+    public int totalTimeInMinutes(int numLayers, int timeInOven) {
+        return preparationTimeInMinutes(numLayers) + timeInOven;
     }
 }
