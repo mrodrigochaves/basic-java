@@ -2,7 +2,7 @@ package edu.mrodrigochaves.exercices;
 
 import java.util.Random;
 
-public class ArrayMultiDimensional {
+public class ArrayMultidimensional {
     public static void main(String[] args) {
         Random random = new Random();
 
